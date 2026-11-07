@@ -15,7 +15,7 @@ shape = 550
 menu  = 5
 css   = "normal"
 
-[buildPlans.Fgxd.metric-override]
+[buildPlans.Fgxd.metricOverride]
 leading = 1100
 xHeight = 550
 
