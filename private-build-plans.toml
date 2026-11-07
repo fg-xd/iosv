@@ -1,34 +1,49 @@
-# Put your custom build plans here
-
-[buildPlans.IosevkaCustomSample]
-family = "Iosevka Custom Sample"
-spacing = "normal"
+[buildPlans.Fgxd]
+family = "fgxd"
+spacing = "term"
 serifs = "sans"
-noCvSs = true
-exportGlyphNames = false
+no-cv-ss = true
+export-glyph-names = false
 
-[buildPlans.IosevkaCustomSample.weights.Regular]
-shape = 400
+hintParams = ["-a", "qqq"]
+
+[buildPlans.Fgxd.variants]
+inherits = "ss08"
+
+[buildPlans.Fgxd.widths.normal]
+shape = 550
+menu  = 5
+css   = "normal"
+
+[buildPlans.Fgxd.metric-override]
+leading = 1100
+xHeight = 550
+
+[buildPlans.Fgxd.variants.design]
+    three = "two-arcs"
+    zero = "diamond-reverse-slashed-split"
+    capital-j = "serifed"
+    f = "flat-hook-serifed"
+    l = "serifed"
+    lower-theta = "diamond"
+    asterisk = "turn-hex-low"
+    caret = "low"
+    paren = "normal"
+    brace = "curly-flat-boundary"
+    ampersand = "closed"
+    at = "threefold-solid-inner"
+    percent = "dots"
+
+[buildPlans.Fgxd.weights.regular]
+shape = 450
 menu = 400
 css = 400
 
-[buildPlans.IosevkaCustomSample.weights.Bold]
-shape = 700
+[buildPlans.Fgxd.weights.bold]
+shape = 800
 menu = 700
 css = 700
 
-[buildPlans.IosevkaCustomSample.slopes.Upright]
-angle = 0
-shape = "upright"
-menu = "upright"
-css = "normal"
-
-[buildPlans.IosevkaCustomSample.slopes.Italic]
-angle = 9.4
-shape = "italic"
-menu = "italic"
-css = "italic"
-
-# To enable TTC building, uncomment the following section and write your collect plans
-# [collectPlans.IosevkaCustomSample]
-# from = ["IosevkaCustomSample"]
+[buildPlans.Fgxd.slopes]
+upright = "default.upright"
+italic = "default.italic"
