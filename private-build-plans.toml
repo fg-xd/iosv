@@ -1,55 +1,176 @@
-[buildPlans.Caelusevka]
-family = "caelusevka"
-spacing = "term"
+[buildPlans.IosevkaCustom]
+family = "hypercode"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
-noLigation = true
 
-[buildPlans.Caelusevka.variants.design]
-one = "base-flat-top-serif"
-three = "flat-top-serifless"
+[buildPlans.IosevkaCustom.variants.design]
+one = "no-base-flat-top-serif"
+two = "straight-neck-serifless"
+four = "closed-serifless"
+five = "oblique-arched-serifless"
+six = "closed-contour"
 seven = "straight-serifless"
-zero = "slashed"
-capital-g = "toothed-serifless-hooked"
-capital-j = "serifed"
+eight = "two-circles"
+nine = "closed-contour"
+zero = "oval-reverse-slashed"
+capital-a = "curly-serifless"
+capital-b = "more-asymmetric-serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-j = "serifless"
+capital-k = "curly-serifless"
+capital-m = "flat-bottom-serifless"
+capital-n = "asymmetric-serifless"
+capital-q = "crossing"
+capital-r = "curly-serifless"
+capital-u = "toothed-serifless"
+capital-v = "curly-serifless"
+capital-w = "curly-serifless"
+capital-x = "curly-serifless"
+capital-y = "curly-serifless"
+capital-z = "curly-serifless"
 a = "double-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
 e = "flat-crossbar"
-f = "flat-hook-serifless"
+f = "serifed-crossbar-at-half-ascender-height"
 g = "single-storey-serifless"
-l = "serifed"
+h = "straight-serifless"
+i = "serifed"
+j = "serifless"
+k = "curly-serifless"
+l = "zshaped"
+m = "serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "straight-serifless"
+r = "narrow-hook-serifless"
+s = "serifless"
 t = "flat-hook"
-braille-dot = "round"
-tilde = "low"
-asterisk = "penta-low"
-underscore = "high"
-caret = "medium"
-ascii-single-quote = "raised-comma"
-brace = "curly-flat-boundary"
-guillemet = "straight"
+u = "toothed-serifless"
+v = "curly-serifless"
+w = "curly-serifless"
+x = "curly-serifless"
+y = "curly-serifless"
+z = "curly-serifless"
+capital-delta = "curly"
+capital-lambda = "curly-serifless"
+lower-lambda = "curly"
+paren = "normal"
+brace = "curly"
+number-sign = "slanted"
 at = "threefold-solid-inner"
 dollar = "open"
 cent = "open"
 percent = "dots"
+bar = "natural-slope"
+question = "corner"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
 
-[buildPlans.Caelusevka.weights.Regular]
-shape = 400
+[buildPlans.IosevkaCustom.variants.italic]
+one = "no-base-flat-top-serif"
+two = "straight-neck-serifless"
+four = "closed-serifless"
+five = "oblique-arched-serifless"
+six = "closed-contour"
+seven = "straight-serifless"
+eight = "two-circles"
+nine = "closed-contour"
+zero = "oval-reverse-slashed"
+capital-a = "curly-serifless"
+capital-b = "more-asymmetric-serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-j = "serifless"
+capital-k = "curly-serifless"
+capital-m = "flat-bottom-serifless"
+capital-n = "asymmetric-serifless"
+capital-q = "crossing"
+capital-r = "curly-serifless"
+capital-u = "toothed-serifless"
+capital-v = "curly-serifless"
+capital-w = "curly-serifless"
+capital-x = "curly-serifless"
+capital-y = "curly-serifless"
+capital-z = "curly-serifless"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "serifed-crossbar-at-half-ascender-height"
+g = "single-storey-serifless"
+h = "straight-serifless"
+i = "serifed"
+j = "serifless"
+k = "curly-serifless"
+l = "zshaped"
+m = "serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "straight-serifless"
+r = "narrow-hook-serifless"
+s = "serifless"
+t = "flat-hook"
+u = "toothed-serifless"
+v = "curly-serifless"
+w = "curly-serifless"
+x = "curly-serifless"
+y = "curly-serifless"
+z = "curly-serifless"
+capital-delta = "curly"
+capital-lambda = "curly-serifless"
+lower-lambda = "curly"
+paren = "normal"
+brace = "curly"
+number-sign = "slanted"
+at = "threefold-solid-inner"
+dollar = "open"
+cent = "open"
+percent = "dots"
+bar = "natural-slope"
+question = "corner"
+lig-neq = "slightly-slanted-dotted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+  [buildPlans.IosevkaCustom.ligations]
+  inherits = "dlig"
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 450
 menu = 400
 css = 400
 
-[buildPlans.Caelusevka.weights.Bold]
-shape = 700
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 800
 menu = 700
 css = 700
 
-[buildPlans.Caelusevka.slopes.Upright]
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.Caelusevka.slopes.Italic]
-angle = 9.4
+[buildPlans.IosevkaCustom.slopes.Italic]
+angle = 11
 shape = "italic"
 menu = "italic"
 css = "italic"
